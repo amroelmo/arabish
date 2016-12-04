@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "amiri";
+  src: url("amiri-regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "amiri";
+  src: url("amiri-bold.woff2") format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "amiri";
+  src: url("amiri-boldslanted.woff2") format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "amiri";
+  src: url("amiri-slanted.woff2") format('woff2');
+  font-style: italic;
+}
+
+div.arabic-output {
+  font-family: amiri;
+  border-style:solid;
+  direction:rtl;
+  width:100%;
+  height:500px;
+}
