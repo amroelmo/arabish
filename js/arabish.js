@@ -171,8 +171,6 @@ ENGLISH["#"] = [KASRA];
 ENGLISH["#"] = [SHADDA];
 ENGLISH["#"] = [SUKUN];
 ENGLISH["#"] = [SUKUN];
-//replace carriage return with breakline
-ENGLISH["\n"] = ["</br>"];
 
 //Word Cache 
 var CACHE = {};

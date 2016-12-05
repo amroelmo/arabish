@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Arabish Editor</title>
+  <title>a7a editor</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,13 +21,12 @@
 
     <div class="col-sm-6">
       <h4>Arabic</h4>
-      <div class="arabic-output" style="border-style:solid;direction:rtl;width:100%;height:500px"> </div>
+      <textarea readonly id="arabic-output"></textarea>
     </div>
   </div>
 </div>
 
 <script>
-
   window.onload = function() {
     var input  = document.getElementById("arabish-input");
     var output = document.getElementById("arabic-output");
@@ -35,7 +34,7 @@
     input.addEventListener('keyup', function () {
       var arabish = input.value;
       var arabic = arabiz(arabish);
-      output.innerHTML = arabic;
+      output.value = arabic;
     });
   };
 </script>
