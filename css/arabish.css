@@ -20,11 +20,45 @@
   font-family: "amiri";
   src: url("amiri-slanted.woff2") format('woff2');
   font-style: italic;
-} 
+}
+
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    
+    .row.content {
+      height: auto;
+      background-color: #C1B8A7;
+      color: #3A302D;
+    }
+    /* Set gray background color and 100% height */
+    
+    .sidenav {
+      padding-top: 20px;
+      background-color: #C1B8A7;
+      height: auto;
+    }
+    /* Set black background color, white text and some padding */
+    
+    footer {
+      background-color: #555;
+      color: #C1B8A7;
+      padding: 15px;
+    }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height: auto;
+      }
+    } 
 
 #a7a {
   font-family: amiri;
-  font-style: normal;
+  font-style: bold;
   font-size: 50px;
   text-align: center;
 }
@@ -36,12 +70,65 @@
   text-align: center;
 }
 
+body {
+  background-color: #555;
+}
+
+.arabic-title {
+  font-family: amiri;
+  font-style: bold;
+  font-size: 50px;
+  text-align: right;
+}
+
+.arabic-text {
+  font-family: amiri;
+  font-style: normal;
+  font-size: 25px;
+  text-align: right;
+}
+
+.english-text {
+  font-family:Helvetica;
+  font-size: 25px;
+  direction:ltr;
+}
+
+div.archive {
+  font-family: amiri;
+  font-style: normal;
+  font-size: 20px;
+  direction:rtl;
+  padding: 5px;
+  text-align: right;
+}
+
+a:link    {color:#3A302D; background-color:transparent; text-decoration:none}
+a:visited {color:purple; background-color:transparent; text-decoration:none}
+a:hover   {color:darkblue; background-color:transparent; text-decoration:underline}
+a:active  {color:darkblue; background-color:transparent; text-decoration:underline}
+
+
+#arabish-input {
+  font-family:Helvetica;
+  font-style: normal;
+  font-size: 50px;
+  background-color: #C1B8A7;
+  border-style:solid;
+  direction:ltr;
+  padding: 5px;
+  width:100%;
+  height: 500px;
+  resize: none;
+  overflow-y: auto;
+}
 
 #arabic-output {
   font-family: amiri;
   font-style: normal;
   font-size: 50px;
   border-style:solid;
+  background-color: #C1B8A7;
   direction:rtl;
   padding: 5px;
   width:100%;
@@ -51,14 +138,6 @@
 }
 
 div.article-ar {
-  font-family: amiri;
-  font-style: normal;
-  font-size: 50px;
-  direction:rtl;
-  padding: 5px;
-}
-
-div.archive {
   font-family: amiri;
   font-style: normal;
   font-size: 50px;
