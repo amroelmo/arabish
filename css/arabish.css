@@ -86,6 +86,16 @@ body {
   font-style: normal;
   font-size: 25px;
   text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.arabic-text.intro {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .english-text {
@@ -112,7 +122,7 @@ a:active  {color:darkblue; background-color:transparent; text-decoration:underli
 #arabish-input {
   font-family:Helvetica;
   font-style: normal;
-  font-size: 50px;
+  font-size: 20px;
   background-color: #C1B8A7;
   border-style:solid;
   direction:ltr;
@@ -126,7 +136,7 @@ a:active  {color:darkblue; background-color:transparent; text-decoration:underli
 #arabic-output {
   font-family: amiri;
   font-style: normal;
-  font-size: 50px;
+  font-size: 20px;
   border-style:solid;
   background-color: #C1B8A7;
   direction:rtl;
