@@ -82,6 +82,15 @@ body {
   text-align: right;
 }
 
+.english-title {
+  font-family:Helvetica;
+  font-style: bold;
+  font-size: 35px;
+  margin-right: 10px;
+  direction:ltr;
+  text-align: left;
+}
+
 .arabic-text {
   font-family: amiri;
   font-style: normal;
@@ -103,15 +112,27 @@ body {
   font-family:Helvetica;
   font-size: 25px;
   direction:ltr;
+  text-align: left;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-div.archive {
+div.archive-ar {
   font-family: amiri;
   font-style: normal;
   font-size: 20px;
   direction:rtl;
   padding: 5px;
   text-align: right;
+}
+
+div.archive-en {
+  font-family:Helvetica;
+  font-size: 20px;
+  direction:ltr;
+  padding: 5px;
+  text-align: left;
 }
 
 a:link    {color:#3A302D; background-color:transparent; text-decoration:none}
